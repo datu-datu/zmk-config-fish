@@ -84,7 +84,7 @@
             bindings = <&bootloader>;
         };
 
-        combo_studio_unlock {
+        combo_studio_unlock_2 {
             key-positions = <20 21 22 23>;
             bindings = <&studio_unlock>;
         };
@@ -103,16 +103,16 @@
                         &kp L       &kp U       &kp F       &kp MINUS           &kp K       &kp W       &kp R       &kp Y       
 &kp Q       &kp E       &mt LGUI I  &mt LALT A  &mt LSHFT O &kp COMMA           &kp G       &mt RSHFT T &mt RALT N  &mt RGUI S  &kp H       &kp P       
             &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B       
-                                                &lt 1 BSPC  &mt LCTRL SPACE     &mt RCTRL TAB &lt 2 RET 
+                                                &lt 1 BSPC  &mt LCTRL RET       &mt RCTRL TAB &lt 2 SPACE 
             >;
         };
 
         layer_math {
             bindings = <
-                        &kp N7      &kp N8      &kp N9      &trans              &kp CARET   &kp LT      &kp EQUAL   &kp GT      
+                        &kp N7      &kp N8      &kp N9      &kp SEMI            &kp CARET   &kp LT      &kp EQUAL   &kp GT      
 &kp TILDE   &kp N0      &mt LGUI N4 &mt LALT N5 &mt LSHFT N6 &kp DOT            &kp UNDER   &mt RSHFT PLUS &mt RALT MINUS &mt RGUI STAR &kp FSLH &kp PRCNT 
             &kp DLLR    &kp N1      &kp N2      &kp N3                                      &kp EXCL    &kp QMARK   &kp COLON   &kp SEMI    
-                                                &none       &trans              &trans      &lt 6 SPACE 
+                                                &none       &trans              &mo 7       &lt 6 SPACE 
             >;
         };
 
@@ -161,11 +161,11 @@
             >;
         };
 
-        layer_extra_1 {
+        layer_cProgram {
             bindings = <
-                        &none       &none       &none       &none               &none       &none       &none       &none       
-&none       &none       &none       &none       &none       &none               &none       &none       &none       &none       &none       &none       
-            &none       &none       &none       &none                                       &none       &none       &none       &none       
+                        &kp STAR    &kp FSLH    &kp PRCNT   &none               &none       &kp CARET   &kp AMPS    &kp PIPE    
+&none       &none       &kp SEMI    &kp LBRC    &mt LSHFT RBRC &none            &none       &kp LPAR    &kp RPAR    &kp EQUAL   &none       &none       
+            &none       &kp PLUS    &kp MINUS   &kp HASH                                    &kp LT      &kp GT      &kp DQT     &none       
                                                 &none       &none               &none       &none       
             >;
         };
