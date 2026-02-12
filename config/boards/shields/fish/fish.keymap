@@ -127,9 +127,9 @@
 
         layer_mac_base {
             bindings = <
-                        &kp L       &kp U       &kp F       &kp MINUS           &kp K       &kp W       &kp R       &kp Y       
-&kp Q       &kp E       &mt LCTRL I &mt LALT A  &mt LSHFT O &kp COMMA           &kp G       &mt RSHFT T &mt RALT N  &mt RCTRL S &kp H       &kp P       
-            &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B       
+                        &kp LEFT    &kp RIGHT   &kp RIGHT   &kp RIGHT           &kp K       &kp W       &kp R       &kp Y       
+&kp LEFT    &kp LEFT    &kp LEFT    &kp RIGHT   &kp RIGHT   &kp RIGHT           &kp G       &mt RSHFT T &mt RALT N  &mt RCTRL S &kp H       &kp P       
+            &kp LEFT    &kp LEFT    &kp RIGHT   &kp RIGHT                                   &kp D       &kp M       &kp J       &kp B       
                                                 &lt 4 BSPC  &mt LGUI RET        &mt RGUI TAB &lt 5 SPACE 
             >;
         };
